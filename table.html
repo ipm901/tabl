@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabl</title>
+    <style>
+    table, td, th{
+        border: 1px solid #000000;
+        border-collapse: collapse;
+       
+
+    }
+    
+.tr1{
+    background-color: #796f6f;
+}
+
+td:nth-child(1n) {
+  color: lime;
+}
+td:nth-child(2n) {
+  color: rgb(28, 32, 211);
+}
+</style>
+</head>
+<body>
+    <h1>Таблица</h1>
+    <table>
+        <tr>
+            <th colspan="2">Header1</th>
+            <th>Header2</th>
+        </tr>
+        <tr>
+            <td>text1text1text1</td> 
+            <td>text1</td>
+            <td>text1</td>
+            <td colspan="2">text1</td>
+            <td>text1</td>
+            <td rowspan="2">text1</td>
+        </tr>
+        
+        <tr>
+            <td>text1</td>
+            <td>text2</td>
+            <td>text1</td>
+            <td>text1</td>
+            <td>text1</td>
+            <td>text3</td>
+        </tr>
+    </table>
+</body>
+</html>
